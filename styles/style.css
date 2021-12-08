@@ -111,3 +111,48 @@ footer {
     }
 
   }
+
+.greeting-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.greeting:hover {
+    text-shadow: 1px 1px black;
+}
+
+.friend-list {
+    margin: 10px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+
+.friend {
+    border: dotted 1px grey;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.dog-list {
+    background-color: lightblue;
+}
+
+.dog {
+    color: indigo;
+}
+
+.hero-div {
+    margin: 10px;
+    border: dashed 1px black;
+}
+
+.hero {
+    background-color: lightgrey;
+}
+
+.alter-ego {
+    border-bottom: solid 1px red;
+}
